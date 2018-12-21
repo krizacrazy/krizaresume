@@ -1,0 +1,337 @@
+body {
+	background-color: #fffafa;
+	text-align: center;
+	font-family: Avenir Lt Std ;
+}
+
+.main-header{
+	padding:5 0 0 0px;
+	background: #c1cdc1;
+	font-size: 20px;
+	margin-top: 10px;
+
+}
+
+.main-header2{
+	padding:200px;
+	background-image: url(../images/job.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	grid-gap: 0px;
+	opacity: 0.7;
+	z-index: 1;	
+
+}
+.kriza{
+	background-position: center;
+	border-radius: 50%;
+	border: solid 2px;
+}
+
+.slide{
+	position: absolute;
+	top: 20%;
+	right:25%;
+	transform: translate(-20%,-25%,);
+
+}
+.slide h1{
+	font-size: 50px;
+	padding: 5px 15px;
+	text-align: center;
+}
+.slide h2{
+	font-size: 25px;
+	padding: 5px 15px;
+	text-align: center;
+}
+.personal h1{
+	margin-top: 20px;
+	padding:10 10 10 10px;
+	background: #c1cdc1;
+	font-size: 25px;
+}
+
+.bigdiv {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10 10px;
+}
+
+.info1 {
+	padding: 50px;
+	border: 2px solid black;
+	text-align: left;
+	background-color: grey;
+
+}
+.info2 {
+	padding: 50px;
+	border: 2px solid black;
+	text-align: left;
+	background-color: #cdcdc1;
+
+}
+
+.info3 {
+	padding: 50px;
+	border: 2px solid black;
+	text-align: left;
+	background-color: grey;
+
+}
+
+.study h1{
+	padding:10 10 10 10px;
+	background: #c1cdc1;
+	font-size: 25px;
+
+
+
+}
+.boxes {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10 10px;
+    background-color: grey;
+}
+
+
+
+.box1 h1{
+    font-size: 20px;
+}
+.box1 p{
+	padding: 30px;
+	text-align: center;
+}
+
+.box2 h1 {
+    font-size: 20px;
+
+}
+.box2 p{
+	padding: 30px;
+	text-align: center;
+
+}
+
+.box3 h1 {
+    font-size: 20px;
+
+}
+
+.box3 p{
+	padding: 30px;
+	text-align: center;
+
+}
+
+.employ h1{
+	padding:10 10 10 10px;
+	background: #c1cdc1;
+	font-size: 25px;
+}
+.bigdiv2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10 10px;
+}
+.in1 h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.in1{
+	padding: 5px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: grey;
+}
+.in2 h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.in2{
+	padding: 10px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: #cdcdc1;
+}
+
+.in3 h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.in3{
+	padding: 10px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: grey;
+}
+.seminars h1{
+	padding:10 0 0 0px;
+	background:#c1cdc1 ;
+	font-size: 15px;
+	font-size: 25px;
+
+}
+
+.boxes2 {
+    background-image: url(../images/seminarr.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row: 1fr 1fr 1fr;
+	padding: 20px;
+	margin-top: 5px;
+	opacity: 0.9;
+	z-index: 1;
+	margin-bottom: 5px;
+}
+.bo1 h1{
+    font-size: 20px;
+
+
+}
+.bo1 p{
+	padding: 30px;
+	text-align: center;
+
+}
+
+.bo1 h6{
+	background-color: #fff;
+	color: #fff;
+	padding: 1px;
+
+}
+.bo2 h1{
+    font-size: 20px;
+}
+.bo2 p{
+	padding: 30px;
+	text-align: center;
+}
+
+.bo2 h6{
+	background-color: #fff;
+	color: #fff;
+	padding: 1px;
+
+}
+.bo3 h1{
+    font-size: 20px;
+}
+.bo3 p{
+	padding: 30px;
+	text-align: center;
+}
+
+.bo3 h6{
+	background-color: #fff;
+	color: #fff;
+	padding: 1px;
+}
+
+.org h1{
+	padding:10 10 10 10px;
+	background: #c1cdc1;
+	font-size: 25px;
+
+}
+.boxfin p{
+	padding: 30px;
+	text-align: justify center;
+	background: grey;
+
+}
+.ref h1 {
+	padding:10 0 0 0px;
+	background: #c1cdc1;
+	font-size: 25px;
+
+
+}
+.bigdiv3{
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.last h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.last{
+	padding: 5px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: grey;
+}
+.last2 h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.last2 {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: center;
+	background-color:#cdcdc1 ;
+}
+.last3 h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.last3 {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: grey;
+}
+.contact h1{
+	padding:10 0 0 0px;
+	background: #c1cdc1 ;
+	font-size: 25px;
+}
+.dis {
+	display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5 5px;
+    background-color: grey;
+}
+
+.dis1 h1{
+    font-size: 20px;
+}
+.dis1 p{
+	padding: 30px;
+	text-align: center;
+}
+
+.dis2 h1 {
+    font-size: 20px;
+
+}
+.dis2 p{
+	padding: 30px;
+	text-align: center;
+
+}
+.footer{
+	padding: 1px;
+	background-color: white;	
+}
